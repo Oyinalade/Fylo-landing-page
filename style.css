@@ -1,0 +1,182 @@
+.header,
+.main-page,
+.access,
+.footer {
+  padding: 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+}
+.header li {
+  margin-inline: 2em;
+}
+.main-page {
+  display: flex;
+  margin-block-start: 4em;
+}
+.image {
+  width: 650px;
+}
+#input {
+  padding: 10px;
+  border: 1px solid hsl(238, 22%, 44%);
+}
+.special {
+  background: url("images/bg-curve-desktop.svg"),
+    hsl(240, 75%, 98%) bottom 60vh left 20vw;
+  background-repeat: no-repeat;
+}
+.btn {
+  padding: 10px;
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(240, 75%, 98%);
+  border: none;
+  width: 190px;
+}
+.second {
+  margin-top: 10px;
+}
+.testimonials {
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 5px rgb(230, 226, 226);
+}
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.avatar {
+  display: flex;
+}
+.avatar h4,
+p {
+  margin-block: 0.5em;
+  margin-inline: 0.5em;
+}
+.avatar p {
+  font-size: 12px;
+}
+.access {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  justify-content: space-around;
+}
+.footer {
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.footer-info ul {
+  padding-inline-start: 0;
+  line-height: 2;
+  margin-block-start: 0;
+}
+.footer-icon {
+  display: flex;
+}
+.footer-icon img {
+  width: 18px;
+  height: 20px;
+}
+.fa {
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-inline: 0.3em;
+  border-radius: 50%;
+}
+.fa:hover {
+  color: hsl(224, 93%, 58%);
+}
+.footer-info li:hover {
+  color: hsl(224, 93%, 58%);
+}
+.footer-info li {
+  list-style: none;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+#secondInput {
+  width: 400px;
+  line-height: 3;
+  outline: none;
+}
+.btn:nth-child(2) {
+  margin: 10px;
+  margin-inline-start: 0;
+}
+.access-text h2 {
+  color: #fff;
+}
+.access-text p {
+  color: #fff;
+  margin-inline-start: 0;
+}
+.special-text a {
+  color: hsl(170, 45%, 43%);
+}
+.special-text p {
+  margin-inline-start: 0;
+}
+.svg {
+  fill: #fff;
+  margin-block-end: 3em;
+}
+@media (max-width: 500px) {
+  .main-page {
+    flex-direction: column-reverse;
+  }
+  .header {
+    justify-content: space-around;
+  }
+  .image {
+    width: 350px;
+  }
+  .access {
+    flex-wrap: wrap;
+  }
+  #secondInput {
+    width: 300px;
+  }
+  .testimonials {
+    width: 300px;
+  }
+  .header li {
+    margin-inline: 1em;
+  }
+  .logo {
+    width: 100px;
+    margin-block-end: 2em;
+    height: 50px;
+  }
+  .header,
+  .main-page,
+  .access,
+  .footer {
+    padding: 20px;
+  }
+  .footer-info {
+    margin-top: 0px;
+    flex-direction: column;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
